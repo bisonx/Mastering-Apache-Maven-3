@@ -1,0 +1,33 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.packt.di</groupId>
+	<artifactId>guice-sample</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>PACKT Guice Project</name>
+
+        <dependencies>
+
+	  <dependency>
+	    <groupId>com.google.inject</groupId>
+	    <artifactId>guice</artifactId>
+	    <version>4.0-beta4</version>
+          </dependency>
+
+          <dependency>
+	    <groupId>javax.inject</groupId>
+	    <artifactId>javax.inject</artifactId>
+	    <version>1</version>
+          </dependency>
+
+          <dependency>
+	    <groupId>aopalliance</groupId>
+	    <artifactId>aopalliance</artifactId>
+	    <version>1.0</version>
+          </dependency>
+
+	</dependencies>
+
+</project>

@@ -1,0 +1,21 @@
+<project>	<modelVersion>4.0.0</modelVersion>	<groupId>com.packt</groupId>	<artifactId>jose</artifactId>	<version>1.0.1</version>	<scm>		<connection>scm:svn:https://svn.wso2.org/repos/wso2/people/prabath/maven/jose/src</connection>		<developerConnection>scm:svn:https://svn.wso2.org/repos/wso2/people/prabath/maven/jose/src</developerConnection>		<url>https://svn.wso2.org/repos/wso2/people/prabath/maven/jose</url>	</scm>	
+
+ 	<build>
+
+    		<plugins>
+      			<plugin>
+        			<groupId>org.apache.maven.plugins</groupId>
+        			<artifactId>maven-scm-plugin</artifactId>
+        			<version>1.9</version>
+        			<configuration>
+          				<connectionType>developerConnection</connectionType>
+        			</configuration>
+      			</plugin>
+  			<plugin>        			<artifactId>maven-clean-plugin</artifactId>        			<version>2.5</version>        			<executions>          				<execution>            					<id>auto-clean</id>            					<phase>initialize</phase>            					<goals>              						<goal>clean</goal>            					</goals>          				</execution>        			</executions>      			</plugin>
+   		 </plugins>  
+  	</build>
+
+
+	<dependencies>
+		<dependency>			<groupId>com.nimbusds</groupId>			<artifactId>nimbus-jose-jwt</artifactId>			<version>2.26</version>		</dependency>
+	</dependencies>	</project>

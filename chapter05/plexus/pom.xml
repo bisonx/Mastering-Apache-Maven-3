@@ -1,0 +1,19 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.packt.di</groupId>
+	<artifactId>plexus-sample</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>PACKT Plexus Project</name>
+
+        <dependencies>
+	  <dependency>
+	   <groupId>org.codehaus.plexus</groupId>
+	   <artifactId>plexus-container-default</artifactId>
+	   <version>1.5.5</version>
+          </dependency>
+	</dependencies>
+
+</project>

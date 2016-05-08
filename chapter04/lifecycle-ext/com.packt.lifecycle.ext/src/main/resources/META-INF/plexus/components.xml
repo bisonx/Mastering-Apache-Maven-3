@@ -1,0 +1,29 @@
+<component-set>
+	<components>
+		<component>
+			<role>org.apache.maven.lifecycle.Lifecycle</role>
+			<role-hint>customLifecyclePlugin_PackagingType</role-hint>
+			<implementation>org.apache.maven.lifecycle.Lifecycle</implementation>
+			<configuration>
+				<id>customLifecyclePlugin_LifecycleID</id>
+				<phases>
+					<phase>get-code</phase>
+					<phase>build-code</phase>
+					<phase>run-tests</phase>
+					<phase>notify</phase>
+				</phases>
+				<default-phases>
+					<get-code>com.packt:com.packt.lifecycle.sample:get-code-goal
+					</get-code>
+					<build-code>com.packt:com.packt.lifecycle.sample:build-code-goal
+					</build-code>
+					<run-tests>com.packt:com.packt.lifecycle.sample:run-tests-goal
+					</run-tests>
+					<notify>com.packt:com.packt.lifecycle.sample:notify-goal
+					</notify>
+
+				</default-phases>
+			</configuration>
+		</component>
+	</components>
+</component-set>

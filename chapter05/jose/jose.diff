@@ -1,0 +1,13 @@
+Index: pom.xml
+===================================================================
+--- pom.xml	(revision 204870)
++++ pom.xml	(working copy)
+@@ -2,7 +2,7 @@
+ 	<modelVersion>4.0.0</modelVersion>
+ 	<groupId>com.packt</groupId>
+ 	<artifactId>jose</artifactId>
+-	<version>1.0.0</version>
++	<version>1.0.1</version>
+ 
+ 	<scm>
+ 		<connection>scm:svn:https://svn.wso2.org/repos/wso2/people/prabath/maven/jose/src</connection>
